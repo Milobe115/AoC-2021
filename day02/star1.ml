@@ -33,3 +33,4 @@ let process l =
     | _ -> distance * depth in
   process_aux l 0 0;;
     
+process (readfile "input.txt");;
